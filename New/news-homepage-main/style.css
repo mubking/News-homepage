@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:  white;
+    min-height: 100vh;
+
+    
+    
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 6%;
+    height: 7vh;
+}
+.one ol li{
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+    margin-right: 10px;
+    color: #84818B;
+}
+.all{
+    padding: 2% 6%;
+}
+.first img{
+    width: 96%;
+    height: 50vh;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+}
+.two{
+    width: 48%;
+    height: 30vh;
+    padding: 20px 30px;
+    font-size: 3.0vmax;
+}
+.three{
+    width: 48%;
+    height: 30vh;
+    
+    padding: 20px 30px;
+    font-size: 2.0vmin;
+    
+    
+}
+.three button{
+    padding: 10px 50px;
+    margin-top: 40px;
+    background-color: #F15D50;
+    border: none;
+    cursor: pointer;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    
+}
+.six{
+    width: 30%;
+    height: 81vh;
+    background-color: #00001A;
+    color: white;
+}
+.six h3{
+    font-size: 2.5vmin;
+}
+.six p{
+    font-size: 2.2vmin;
+}
+.six p{
+color: #7C7C93;
+}
+.twenty h1{
+    color: #BC9959;
+    font-size: 2.5vmax;
+}
+.twenty{
+    padding: 37px;
+    border-bottom: 1px solid #171730;
+}
+.twenty h3{
+    margin-top: 20px;
+}
+.twenty p{
+    margin-top: 10px;
+}
+.nineteen{
+    padding: 37px;
+    border-bottom: 1px solid white;
+}
+.nineteen p{
+    margin-top: 10px;
+}
+.eighteen{
+    padding: 37px;
+}
+.eighteen p{
+    margin-top: 10px;
+}
+
+.container-flex h1{
+    color: #C8C6CA;
+}
+
+.container-flex p{
+    color: #C8C6CA;
+}
+.contain{
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.contain img{
+    height: 120px;
+}
+.fifteen{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex h1{
+color: #C8C6CA;
+}
+.flex p{
+    color: #C8C6CA;
+}
+.fifty h1{
+    color: #C8C6CA;
+}
+.fifty p{
+    color: #C8C6CA;
+}
+.eighty h1{
+    color: #C8C6CA;
+    }
+    .eighty p{
+        color: #C8C6CA;
+    }
+    
+
+.seven{
+    
+    display: flex;
+    flex-direction: row;
+width: 100%;    
+padding: 2% 6%;
+gap: 20px; 
+    
+}
+.retro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+.fifty{
+    width: 80%;
+}
+.fifty img{
+    height: 25vh;
+    width: 100%;
+}
+.flex{
+    width: 100%;
+}
+.container-flex{
+    width: 100%;
+}.ten{
+display: flex;
+flex-direction: row;
+width: 100%;
+gap: 20px;
+}
+.sixteen{
+    width: 80%;
+}
+.sixteen img{
+    height: 25vh;
+    width: 100%;
+}
+.twentyfive{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+.eighty{
+    width: 100%;
+}
+.fifteen{
+    width: 80%;
+}
+.fifteen img{
+    height: 25vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px){
+    .one ol li{
+        /* background-color: red; */
+        height: 4vh;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+    }
+    .two{
+        width: 96%;
+        height: 30vh;
+        background-color: red;
+        padding: 20px 30px;
+        font-size: 3.0vmax;
+    }
+    .three{
+        width: 96%;
+        height: 30vh;
+        background-color: yellow;
+        padding: 20px 30px;
+        font-size: 2.0vmin;
+        
+        
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .six{
+        width: 96%;
+        height: 70vh;
+        background-color: #00001A;
+        color: white;
+    }
+    .six h3{
+        font-size: 3.5vmin;
+    }
+    .six p{
+        font-size: 2.2vmin;
+    }
+    .six p{
+    color: #7C7C93;
+    }
+    .twenty h1{
+        color: #BC9959;
+        font-size: 2.5vmax;
+    }
+    .seven{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container-flex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    
+    
+
+
+
+
+
+
+}
